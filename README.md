@@ -11,9 +11,10 @@
 ## Using the project
 
 1. Navigate to ``com.javacord.bot`` and create a new Java file.
-2. make your new file extend ``CommandBase``.
-3. Implement the ``public String run()`` method.
-4. Go to command parser and go to the switch in ``public CommandParser()`` and add 
+2. Make a ``Secrets.java`` file and add a ``String BotID``.
+3. Make a new java file and have the class extend ``CommandBase``.
+4. Implement the ``public String run()`` method.
+5. Go to command parser and go to the switch in ``public CommandParser()`` and add 
 ```
   switch "<command>":
     command = <new_class>;
